@@ -373,10 +373,10 @@ dyn = {
 
 % as seen here: http://lilypond.org/doc/v2.20/Documentation/notation/explicit-staff-and-system-positioning
 staffFormat = {
-  \repeat unfold 17 { \stackStaffs s2*4 \break }
-  \stackStaffs s2*3 \break
-  \repeat unfold 5 { \stackStaffs s2*4 \break }
-  \stackStaffs
+  \repeat unfold 17 { \stackStaves s2*4 \break }
+  \stackStaves s2*3 \break
+  \repeat unfold 5 { \stackStaves s2*4 \break }
+  \stackStaves
   
 } 
 

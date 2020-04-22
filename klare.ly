@@ -138,7 +138,7 @@ clefKlareBass = {
 
 %% helpers for making a continuous note-space out of a PianoStaff
 % http://lilypond.org/doc/v2.20/Documentation/notation/explicit-staff-and-system-positioning
-stackStaffs = {
+stackStaves = {
   \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details
       #'((alignment-distances . (12)))
 }
